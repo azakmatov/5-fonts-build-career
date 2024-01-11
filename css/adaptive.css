@@ -1,0 +1,44 @@
+@media  screen and (max-width: 499px) {
+    .header .container {
+        flex-direction: column;
+    }
+
+    .header .logo {
+        margin-bottom: 20px;
+    }
+
+    .header .menu ul li {
+        margin-right: 15px;
+    }
+
+    .article-header h1 {
+        font-size: 35px;
+    }
+
+    .article-section h2 {
+        font-size: 30px;
+    }
+
+    .article-additional {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .article-additional-reactions {
+        margin-bottom: 30px;
+    }
+
+    .article-additional-reaction:first-child {
+        margin: 0 40px 0 0;
+    }
+
+    .other-article {
+        flex-direction: column;
+        padding-right: 0;
+    }
+
+    .other-article-info {
+        margin-left: 0;
+    }
+}
